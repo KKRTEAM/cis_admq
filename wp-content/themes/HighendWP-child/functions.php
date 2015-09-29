@@ -1520,8 +1520,8 @@ function save_skills_as_woocommerce_products() {
 	} else {
 		$skills_id = $post_id;
 	}
-	//$skills_id = $post_id;
 
+	//Store skill description from POST to variable.
 	$skilldescription = trim($_POST['skillDesc']);
 
 	$thedata = array(
