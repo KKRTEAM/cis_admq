@@ -2418,6 +2418,62 @@ remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_ad
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
 //Remove Add to Cart Button- end
 
+//Add New menu page in Woocommerce for conversion table -Start
+add_filter( 'woocommerce_get_sections_products', 'myndq_table_conversion_add_section' );
+function myndq_table_conversion_add_section( $sections ) {
+
+	$sections['conversiontable'] = __( 'MyndQ Conversion Table', 'text-domain' );
+	return $sections;
+
+}
+add_filter( 'woocommerce_get_settings_products', 'myndq_table_conversion_all_settings', 10, 2 );
+function myndq_table_conversion_all_settings( $settings, $current_section ) {
+	/**
+	 * Check the current section is what we want
+	 **/
+	if ( $current_section == 'conversiontable' ) {
+		$settings_slider = array();
+		// Add Title to the Settings
+		$settings_slider[] = array( 'name' => __( 'MyndQ Credit Conversion', 'text-domain' ), 'type' => 'title', 'desc' => __( 'The following options are used to configure credit conversion', 'text-domain' ), 'id' => 'credit_conversion' );
+		// Add SMS text field option
+		$settings_slider[] = array(
+			'name'     => __( 'SMS', 'text-domain' ),
+			'desc_tip' => __( 'Enter Credit used for 1 SMS', 'text-domain' ),
+			'id'       => 'credit_conversion_sms',
+			'type'     => 'text',
+			'desc'     => __( 'Enter Credit used for 1 SMS', 'text-domain' ),
+		);
+
+		// Add Phone text field option
+		$settings_slider[] = array(
+			'name'     => __( 'Phone', 'text-domain' ),
+			'desc_tip' => __( 'Enter Credit used for 1 minute of phone call', 'text-domain' ),
+			'id'       => 'credit_conversion_sms',
+			'type'     => 'text',
+			'desc'     => __( 'Enter Credit used for 1 minute of phone call', 'text-domain' ),
+		);
+
+		// Add Video text field option
+		$settings_slider[] = array(
+			'name'     => __( 'Video', 'text-domain' ),
+			'desc_tip' => __( 'Enter Credit used for 1 minute of video call', 'text-domain' ),
+			'id'       => 'credit_conversion_sms',
+			'type'     => 'text',
+			'desc'     => __( 'Enter Credit used for 1 minute of video call', 'text-domain' ),
+		);
+
+		$settings_slider[] = array( 'type' => 'sectionend', 'id' => 'credit-conversion' );
+		return $settings_slider;
+
+		/**
+		 * If not, return the standard settings
+		 **/
+	} else {
+		return $settings;
+	}
+}
+//this is test
+//Add New menu page in Woocommerce for conversion table -End
 
 //2nd Phase -End
 
