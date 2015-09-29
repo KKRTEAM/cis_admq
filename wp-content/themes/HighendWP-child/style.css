@@ -1,0 +1,91 @@
+/*
+Theme Name: Highend-Child
+Theme URI: http://preview.hb-themes.com/?theme=Highend
+Author: HB-Themes
+Author URI: http://www.hb-themes.com
+Description:  A Premium Responsive Multi-Purpose Theme.
+Version: 2.4.5
+Template: HighendWP
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Developed and designed by HB-Themes.
+All files, unless otherwise stated, are released under the GNU General Public License
+version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html
+-----------------------------------------------------------------------------------*/
+
+/***************************************************BY CIS***********************************************************************/
+#mobile_number-307,#mobile_number-297{
+    width: 450px !important;
+    padding-left: 50px !important;
+}
+.um-field-gender .um-field-area{  margin-left: 2%;}
+.picker__nav--next, .picker__nav--prev { background-color: #000000;}
+select:not(#calc_shipping_country):not(#calc_shipping_state) {padding: 10px 0px 10px 20px; margin: 0px 0px 0px 25%;width: 50%;}
+
+.ui-dialog { z-index: 1000 !important ;}
+
+/* Communication-SMS -Start*/
+#phone-button{margin-right:50px;display:block;position:fixed;text-align:center;right:20px;bottom:7px;color:#fff;cursor:pointer;z-index:10000;height:40px;width:40px;background-color:rgba(0,0,0,0.4);background-repeat:no-repeat;background-position:center;transition:background-color .1s linear;-moz-transition:background-color .1s linear;-webkit-transition:background-color .1s linear;-o-transition:background-color .1s linear;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+#phone-button i{line-height:40px!important;width:40px!important;height:40px!important;font-size:16px!important;top:0!important;left:0!important;text-align:center!important;background-color:transparent!important;margin-top:1px!important}
+
+#message-button{margin-right:100px;display:block;position:fixed;text-align:center;right:20px;bottom:7px;color:#fff;cursor:pointer;z-index:10000;height:40px;width:40px;background-color:rgba(0,0,0,0.4);background-repeat:no-repeat;background-position:center;transition:background-color .1s linear;-moz-transition:background-color .1s linear;-webkit-transition:background-color .1s linear;-o-transition:background-color .1s linear;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+#message-button i{line-height:40px!important;width:40px!important;height:40px!important;font-size:16px!important;top:0!important;left:0!important;text-align:center!important;background-color:transparent!important;margin-top:1px!important}
+
+#message-panel{position:fixed;z-index:10001;right:20px;bottom:50px;height:auto;width:235px;padding:25px;background:#fff;border:solid 1px #ebebeb;opacity:0;visibility:hidden;-webkit-transform:scale(0.9);-moz-transform:scale(0.9);-ms-transform:scale(0.9);-o-transform:scale(0.9);transform:scale(0.9);-webkit-transform-origin:100% 100%;-moz-transform-origin:100% 100%;-ms-transform-origin:100% 100%;-o-transform-origin:100% 100%}
+#message-panel-form{margin-top:15px}
+#message-panel p{margin-bottom:7px}
+#hb-submit-message-panel-form{margin:0;margin-top:15px;display:block}
+
+.sms-btn img{width:50px !important;}
+/* Communication-SMS -End*/
+/*Communication-CALL -Start*/
+#call-button{margin-right:50px;display:block;position:fixed;text-align:center;right:20px;bottom:7px;color:#fff;cursor:pointer;z-index:10000;height:40px;width:40px;background-color:rgba(0,0,0,0.4);background-repeat:no-repeat;background-position:center;transition:background-color .1s linear;-moz-transition:background-color .1s linear;-webkit-transition:background-color .1s linear;-o-transition:background-color .1s linear;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+#call-button i{line-height:40px!important;width:40px!important;height:40px!important;font-size:16px!important;top:0!important;left:0!important;text-align:center!important;background-color:transparent!important;margin-top:1px!important}
+
+#message-button{margin-right:100px;display:block;position:fixed;text-align:center;right:20px;bottom:7px;color:#fff;cursor:pointer;z-index:10000;height:40px;width:40px;background-color:rgba(0,0,0,0.4);background-repeat:no-repeat;background-position:center;transition:background-color .1s linear;-moz-transition:background-color .1s linear;-webkit-transition:background-color .1s linear;-o-transition:background-color .1s linear;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+#message-button i{line-height:40px!important;width:40px!important;height:40px!important;font-size:16px!important;top:0!important;left:0!important;text-align:center!important;background-color:transparent!important;margin-top:1px!important}
+
+#calling-panel{position:fixed;z-index:10001;right:20px;bottom:50px;height:auto;width:235px;padding:25px;background:#fff;border:solid 1px #ebebeb;opacity:0;visibility:hidden;-webkit-transform:scale(0.9);-moz-transform:scale(0.9);-ms-transform:scale(0.9);-o-transform:scale(0.9);transform:scale(0.9);-webkit-transform-origin:100% 100%;-moz-transform-origin:100% 100%;-ms-transform-origin:100% 100%;-o-transform-origin:100% 100%}
+#calling-panel-form{margin-top:15px}
+#calling-panel p{margin-bottom:7px}
+#hb-submit-calling-panel-form{margin:0;margin-top:15px;display:block}
+
+.call-btn img{width:50px !important;float: right; margin-right: 5px;}
+
+.woo-cats{margin-top: 15px;}
+
+#calling-panel-form a img{width:50px !important;}
+
+/*Communication-CALL -End*/
+/*Communication-WebRTC -Start*/
+#webrtc-button{margin-right:50px;display:block;position:fixed;text-align:center;right:20px;bottom:7px;color:#fff;cursor:pointer;z-index:10000;height:40px;width:40px;background-color:rgba(0,0,0,0.4);background-repeat:no-repeat;background-position:center;transition:background-color .1s linear;-moz-transition:background-color .1s linear;-webkit-transition:background-color .1s linear;-o-transition:background-color .1s linear;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+#cwebrtc-button i{line-height:40px!important;width:40px!important;height:40px!important;font-size:16px!important;top:0!important;left:0!important;text-align:center!important;background-color:transparent!important;margin-top:1px!important}
+
+#webrtc-panel{position:fixed;z-index:10001;right:20px;bottom:50px;height:auto;width:235px;padding:25px;background:#fff;border:solid 1px #ebebeb;opacity:0;visibility:hidden;-webkit-transform:scale(0.9);-moz-transform:scale(0.9);-ms-transform:scale(0.9);-o-transform:scale(0.9);transform:scale(0.9);-webkit-transform-origin:100% 100%;-moz-transform-origin:100% 100%;-ms-transform-origin:100% 100%;-o-transform-origin:100% 100%}
+#webrtc-panel-form{margin-top:15px}
+#webrtc-panel p{margin-bottom:7px}
+#hb-submit-webrtc-panel-form{margin:0;margin-top:15px;display:block}
+#webrtc-panel-form a img{width:50px !important;}
+.webrtc-btn img{width:50px !important;float: right; margin-right: 32px;}
+/*Communication-WebRTC -End*/
+
+/*Communication-Advisor-WebRTC -Start*/
+#advisor-webrtc-button{margin-right:50px;display:block;position:fixed;text-align:center;right:20px;bottom:7px;color:#fff;cursor:pointer;z-index:10000;height:40px;width:40px;background-color:rgba(0,0,0,0.4);background-repeat:no-repeat;background-position:center;transition:background-color .1s linear;-moz-transition:background-color .1s linear;-webkit-transition:background-color .1s linear;-o-transition:background-color .1s linear;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+#advisor-webrtc-button i{line-height:40px!important;width:40px!important;height:40px!important;font-size:16px!important;top:0!important;left:0!important;text-align:center!important;background-color:transparent!important;margin-top:1px!important}
+
+#advisor-webrtc-panel{position:fixed;z-index:10001;right:20px;bottom:50px;height:auto;width:235px;padding:25px;background:#fff;border:solid 1px #ebebeb;opacity:0;visibility:hidden;-webkit-transform:scale(0.9);-moz-transform:scale(0.9);-ms-transform:scale(0.9);-o-transform:scale(0.9);transform:scale(0.9);-webkit-transform-origin:100% 100%;-moz-transform-origin:100% 100%;-ms-transform-origin:100% 100%;-o-transform-origin:100% 100%}
+#advisor-webrtc-panel-form{margin-top:15px}
+#advisor-webrtc-panel p{margin-bottom:7px}
+#hb-submit-advisor-webrtc-panel-form{margin:0;margin-top:15px;display:block}
+#advisor-webrtc-panel-form a img{width:50px !important;}
+.advisor-webrtc-btn img{width:50px !important;float: right; margin-right: 32px;}
+/*Communication-Advisor-WebRTC -End*/
+.sms-btn{ width: 25px;float: left;margin-right: 5px;cursor: pointer; }
+.call-btn img{ width: 25px !important; }
+.call-btn{ float: left; cursor: pointer;padding: 0 !important; }
+.webrtc-btn{ float: left;cursor: pointer; }
+.webrtc-btn img{ width: 25px !important; }
+#hb-submit-endcalling { display: none; }
+.product_title{ color: #000000;font-size: 22px; }
+.buttons_action{ text-align: center; }
